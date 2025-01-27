@@ -18,6 +18,7 @@
     --cor05: hsl(14, 45%, 36%);
     --cor06: hsl(332, 51%, 32%);
     --cor07: hsl(330, 100%, 98%);
+    --cor08: hsla(15, 4%, 18%, 0.603);
 }
 
 li{
@@ -25,36 +26,37 @@ li{
 }
 
 li::marker{
-    color: var(--cor05);
-}
-
-ul{
-    
+    color: var(--cor06);
 }
 
 img{
-    width: 375px;
+    width: 440px;
     border-radius: 17px;
 }
 
 main{
     background-color: white;
-    width: 375px;
+    width: 440px;
     margin: auto;
     padding: 21px;
     border-radius: 17px;
+    min-width: 400px;
+    max-width: 800px;
 }
 
 body{
     background-color: var(--cor01);
     max-width: 1440;
     font-family: outfit, sans-serif;
-    font-size: 13px;
+    font-size: 11px;
+    color: var(--cor03);
+    margin: 0px;
 }
 
 h1 {
     font-family: young, serif;
     font-weight: 400;
+    color: var(--cor04);
 }
 
 h2{
@@ -72,4 +74,40 @@ aside{
    background-color: var(--cor07);
    padding: 1px 10px 1px 10px;
    text-align: justify;
+}
+
+footer{
+    background-color: var(--cor02);
+    text-align: center;
+    color: var(--cor04);
+}
+
+footer > a{
+    color: var(--cor04);
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+
+a:hover{
+    background-color: var(--cor08);
+    color: var(--cor01);
+    border-radius: 2px;
+    padding: 0.5px;
+}
+
+td{
+    border-left: none;
+    border-bottom: 0.2px solid var(--cor03);
+    padding-bottom: 6px;
+}
+
+td.coluna1{
+    padding-right: 225px;
+    padding-left: 23px;
+}
+
+td.coluna2{
+    padding-right: 90px;
+    font-weight: bold;
+    color: var(--cor05);
 }
