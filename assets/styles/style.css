@@ -57,3 +57,10 @@ main{
     max-width: 1140px;
     height: 440px;
 }
+
+main img{
+    margin-top: 10px;
+    background-color: var(--cor001);
+    width: 140px;
+    height: 90px;
+}
