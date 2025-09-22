@@ -60,14 +60,16 @@ h1 {
 }
 
 h2{
-    font-family: young, serif;
-    font-weight: 400;
-    color: var(--cor05);
+    color: var(--cor06);
+    padding-left: 18px;
+    font-size: small;
 }
 
 h3{
-    color: var(--cor06);
-    padding-left: 18px;
+    font-family: young, serif;
+    font-weight: 500;
+    color: var(--cor05);
+    font-size: medium;
 }
 
 aside{
