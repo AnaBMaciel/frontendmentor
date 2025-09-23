@@ -5,13 +5,103 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
+    font-family: 'Padrao', sans-serif;
 }
 
 main{
     background-color: white;
-    width: 700px;
+    width: 550px;
     height: 370px;
     border-radius: 15px;
     box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.137);
+    display: flex;
 }
 
+#summary{
+    width: 50%;
+    padding-right: 35px;
+    font-size: 14px;
+}
+
+#summary h1{
+    font-size: 18px;
+    padding-top: 15px;
+    font-weight: 700;
+}
+
+.summary{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+}
+
+#reaction{
+    background-color: hsla(0, 100%, 67%, 0.144);
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+#reaction-color{
+    color: var(--red);
+}
+
+#memory{
+    background-color: lch(77.76% 78.37 76.7 / 0.144);
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+#memory-color{
+    color: var(--yellow);
+}
+
+#verbal{
+    background-color: hsla(166, 100%, 37%, 0.144);
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+#verbal-color{
+    color: var(--green);
+}       
+
+#visual{
+    background-color: hsla(234, 85%, 45%, 0.144);
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+#visual-color{
+    color: var(--blue);
+}
+
+span{
+    font-weight: 700;
+}
+
+.img{
+    display: flex;
+    gap: 8px;
+}
+
+button{
+     /* Remove a sombra e a borda padrão */
+    border: none;
+    box-shadow: none;
+    /* Estilização personalizada */
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    cursor: pointer;
+    background-color: var(--Violet-blue);
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    height: 40px;
+    margin: 20px 0px;
+}
+
+#result{
+    width: 50%;
+}
