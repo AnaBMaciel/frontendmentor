@@ -1,12 +1,17 @@
 @charset "UTF-8";
 body{
     background-color: var(--Pale-blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 main{
     background-color: white;
-    width: 375px;
-    height: 600px;
-    margin: auto;
+    width: 700px;
+    height: 370px;
+    border-radius: 15px;
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.137);
 }
 
