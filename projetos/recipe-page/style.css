@@ -46,7 +46,6 @@ main{
 
 body{
     background-color: var(--cor01);
-    max-width: 1440;
     font-family: outfit, sans-serif;
     font-size: 11px;
     color: var(--cor03);
