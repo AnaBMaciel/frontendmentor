@@ -20,6 +20,7 @@ main{
 #summary{
     width: 50%;
     padding-right: 35px;
+    padding-left: 12px;
     font-size: 14px;
 }
 
@@ -94,7 +95,7 @@ button{
     align-items: center;
     width: 100%;
     cursor: pointer;
-    background-color: var(--Violet-blue);
+    background-color: var(--royal-blue);
     color: white;
     font-weight: 700;
     font-size: 14px;
@@ -103,5 +104,55 @@ button{
 }
 
 #result{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     width: 50%;
+    background: linear-gradient(to bottom, var(--slate-blue), var(--Violet-blue));
+    border-radius: 15px;
+}
+
+#result h1{
+    color: var(--Light-lavender);
+    font-size: 18px;
+    font-weight: 700;
+}
+
+#circle{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background:   linear-gradient(to top, var(--slate-blue) 5%, var(--Violet-blue) 80%); /* Sombra linear de cima para baixo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: inset 0px 5px 10px rgba(0, 0, 0, 0.178);
+}
+
+#score{
+    font-size: 55px;
+    color: var(--White);
+    font-weight: 700;
+}
+
+#total{
+    font-size: 14px;
+    color: var(--Light-lavender);
+}
+
+#result h2{
+    color: var(--White);
+    font-size: 24px;
+    font-weight: 700;
+    padding-top: 10px;
+    margin: 0px;
+}
+
+#result p{
+    color: var(--Light-lavender);
+    font-size: 14px;
+    text-align: center;
+    padding: 0px 30px;
 }
